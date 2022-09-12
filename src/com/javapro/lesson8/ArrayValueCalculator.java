@@ -28,8 +28,8 @@ public class ArrayValueCalculator {
         if (arr.length != 4) {
             throw new ArraySizeException();
         } else {
-            for (int i = 0; i < arr.length; i++) {
-                if (arr[i].length != 4) {
+            for (String[] strings : arr) {
+                if (strings.length != 4) {
                     throw new ArraySizeException();
                 }
             }
