@@ -1,5 +1,9 @@
 package com.javapro.lesson8;
 
+import com.javapro.lesson8.exception.ArrayDataException;
+import com.javapro.lesson8.exception.ArraySizeException;
+import com.javapro.lesson8.model.ArrayValueCalculator;
+
 public class Main {
 
   public static void main(String[] args) {
